@@ -1,0 +1,13 @@
+name = "KD232"
+uuid = "41458dd0-f39a-4bb6-a4e0-031fda6b0048"
+authors = ["nathanrboyer <nathanrobertboyer@gmail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
