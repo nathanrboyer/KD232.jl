@@ -1,5 +1,5 @@
 module KD232
 
-# Write your package code here.
+include("KD232_equations.jl")
 
-end
+end #module
