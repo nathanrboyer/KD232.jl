@@ -45,7 +45,6 @@ s = @latexrun Δϵ_peqk(Δϵ_p11k, Δϵ_p22k, Δϵ_p33k, Δϵ_p12k, Δϵ_p23k, �
 # KD-232.3 is too long to fit on one page, so it must be split for rendering.
 (s1, s2) = split(remove_arguments(s), "= ")
 s1 = LaTeXString(s1 * "=\$")
-
 #'
 s2 = LaTeXString("\$" * s2)
 
