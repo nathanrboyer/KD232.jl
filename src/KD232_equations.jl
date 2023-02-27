@@ -67,3 +67,11 @@ remove_arguments(s)
 #' # KD-232.6
 s = @latexrun D_ϵt(D_ϵform, D_ϵ) = D_ϵform + D_ϵ
 remove_arguments(s)
+
+#' # Unlabeled Equations
+s = @latexrun ϵ_Lu(m_2, m_3, m_4) = max(m_2, m_3, m_4)
+remove_arguments(s)
+
+#'
+s = @latexrun R(S_y, S_u) = S_y / S_u
+remove_arguments(s)
