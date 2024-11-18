@@ -1,5 +1,5 @@
 module KD232
 
-include("KD232_equations.jl")
+include("KD232_notebook.jl")
 
 end #module
